@@ -2,8 +2,7 @@
 
 **DailyStudent** is a sleek and minimal Android app that delivers **daily inspirational quotes** ✨ and **up-to-date news articles** 📰. Users can browse quotes, save their favorites, share them with friends, and explore news by category or search for specific topics.
 
-**Student Name:** *Joshua Sutherland* |
-**Student Number:** *ST10255930*
+**Student Name:** Joshua Sutherland (ST10255930)
 
 ---
 
