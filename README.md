@@ -25,7 +25,8 @@ DailyStudent is an Android app that delivers daily inspirational quotes and up-t
 
 ## Screenshots
 
-*(Add your app screenshots here for quotes and news views)*
+<img width="400" height="800" alt="DailyStudent" src="https://github.com/user-attachments/assets/86e98a18-bff6-4e79-8283-3ee066331976" />
+
 
 ---
 ## Technical Challenges Faced
@@ -55,40 +56,6 @@ DailyStudent is an Android app that delivers daily inspirational quotes and up-t
 - **Solution:** Added progress indicators, fallback images, and retry UI messages to guide users during errors or empty API responses.
 
 ---
-## Download the APK
-
-You can generate and share the APK file as follows:
-
-### 1. Build APK in Android Studio
-- Go to `Build > Build Bundle(s) / APK(s) > Build APK(s)`
-- After the build completes, click **"locate"** to find the `.apk` in: app/build/outputs/apk/debug/app-debug.apk
-
-
-### 2. Upload to GitHub Releases
-To make the APK downloadable via GitHub:
-
-1. Go to your GitHub repository.
-2. Click on the **"Releases"** tab → **"Draft a new release"**.
-3. Fill in version info (e.g., `v1.0`) and description.
-4. Upload the `.apk` file by dragging it into the release form.
-5. Click **"Publish release"**.
-
-### 3. Direct Link Example
-
-Once uploaded, you'll get a link like: https://github.com/yourusername/dailystudent/releases/download/v1.0/dailystudent-v1.0.apk
-
-
-You can now include this link in your README:
-
-```markdown
-[Download DailyStudent APK](https://github.com/yourusername/dailystudent/releases/download/v1.0/dailystudent-v1.0.apk)
-```
-
----
-
-
-
-
 ## Getting Started
 
 ### Prerequisites
