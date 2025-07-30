@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -8,7 +10,7 @@ android {
     compileSdk = 36
 
     buildFeatures {
-        buildConfig = true 
+        buildConfig = true
     }
 
     defaultConfig {
@@ -18,8 +20,15 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        buildConfigField("String", "NEWS_API_KEY", "\"${project.properties["NEWS_API_KEY"]}\"")
-        buildConfigField("String", "FAVQS_API_KEY", "\"${project.properties["FAVQS_API_KEY"]}\"")
+        // FIX: Fully qualify java.util.Properties
+        val properties = Properties()
+        properties.load(project.rootProject.file("local.properties").inputStream())
+
+
+        buildConfigField("String", "NEWS_API_KEY", "\"${properties.getProperty("NEWS_API_KEY")}\"")
+        buildConfigField("String", "FAVQS_API_KEY", "\"${properties.getProperty("FAVQS_API_KEY")}\"")
+
+
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -44,7 +53,6 @@ android {
     }
 
 }
-
 dependencies {
 
     implementation(libs.androidx.core.ktx)

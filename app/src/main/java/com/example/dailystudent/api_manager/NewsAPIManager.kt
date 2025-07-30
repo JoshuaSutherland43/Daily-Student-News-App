@@ -6,6 +6,9 @@ import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
 import com.example.dailystudent.BuildConfig
+
+
+
 // Manages fetching news articles from the NewsAPI
 object NewsAPIManager {
 
