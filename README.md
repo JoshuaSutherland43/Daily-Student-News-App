@@ -28,7 +28,7 @@
 
 ## 📸 Screenshots
 
-<img width="400" height="800" alt="DailyStudent" src="https://github.com/user-attachments/assets/86e98a18-bff6-4e79-8283-3ee066331976" />
+<img width="350" height="600" alt="DailyStudent" src="https://github.com/user-attachments/assets/86e98a18-bff6-4e79-8283-3ee066331976" />
 
 ---
 
